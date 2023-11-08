@@ -143,7 +143,7 @@ Digital technologies are central in modern lives and can be used as a way to ena
 
 There is significant existing work in the field of online gender based violence {{IPVTechBib}}{{CSP}} and technology-based IPV {{Freed}} mainly focused on response and resiliency, including digital privacy and safety strategies. Nevertheless, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. Only in rare cases are protocol design or cybersecurity best practices/tactics available {{CETAStrategies}}.
 
-The type of abuser that is close and familiar to the victim, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.
+The type of abuser that is close and familiar to the victim, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their targets.
 
 This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics. In what follows, we first describe IPV and related terminology, the kind of tactics attackers use, and we end with the recommendations.
 
@@ -389,6 +389,8 @@ It is important to note that IPV should not be mistaken to be a privacy issue al
 * Procedures and tools for clinical computer security https://www.usenix.org/conference/usenixsecurity19/presentation/havron
 
 # Security Considerations
+
+This document is about security considerations.
 
 # IANA Considerations
 
