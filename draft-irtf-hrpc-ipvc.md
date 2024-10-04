@@ -174,20 +174,13 @@ In the rest of this draft, we will use this terminology:
 
 # Technology-based IPV attacks
 
-In order to describe IPV attacks that are enabled or exacerbated by Internet technology, we first describe our assumptions about the attacker and common tactics that can be used. Then, the types of technology-enabled IPV attacks are described.
+In this section, we describe IPV attacks that are enabled or exacerbated by Internet technology. First, we outline our assumptions about this type of attacker and common tactics they may use. Then, we describe the types of technology-enabled IPV attacks.
 
-## The intimate attacker
+## The tech-asisted IPV attacker
 
-The attacker we present in this document is one that either has forceful control of
-accounts, devices, and/or authentication information for accessing systems, or uses
-public information to exercise control.
-This kind of attacker can be technologically savvy or not. We define this
-attacker as one of the strongest ones as it can have unlimited access to
-systems and devices, whithout investing a lot of financial or computational resources.
+The attacker we focus on in this document is someone who either forcefully controls accounts, devices, and/or authentication information used to access systems, or leverages publicly available information to exert this control. This attacker may or may not be technologically skilled (it might be "technology savvy" or not). From a threat model perspective, this attacker is one of the strongest ones as it use their abilities to gain unlimited access to unlimited access to systems and devices without needing significant financial or computational resources.
 
-The attacker has some kind of physical access to the victim (or has had it in the past),
-and often shares a common social network with them. In some cases, it can be
-the legal owner of the devices/accounts a victim uses.
+The attacker typically has (or has had) physical access to the victim and often shares a common social network with them. In some cases, the attacker may legally own the devices or accounts the victim uses, further complicating the victim’s ability to maintain control.
 
 ## Tech-based IPV tactics
 
@@ -221,7 +214,7 @@ Here we informally list their main groups:
   active monitoring of any online account that the victim has or of any action that the
   victim does in the digital world. This includes a variety of behaviors that
   feel unwelcomed and intrusive, and can involve threats.
-  The monitoring is "active" in that is a permanent action that the victim can be
+  The monitoring is "active" in that is a on-going action that the victim can be
   aware of or not, and that the abuser might want to make them aware or not. It can
   include:
   * Monitoring e-mail, chat-based or social media communications, or browsing information
