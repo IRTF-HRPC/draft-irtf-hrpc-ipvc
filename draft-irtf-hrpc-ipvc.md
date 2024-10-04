@@ -128,6 +128,11 @@ informative:
     title: "Deepfakes, misinformation and disinformation and authenticity infrastructure responses: Impacts on frontline witnessing, distant witnessing, and civic journalism"
     author:
       - name: Sam Gregory
+  DULT:
+    target: https://datatracker.ietf.org/wg/dult/about/
+    title: "Detecting Unwanted Location Trackers"
+    author:
+      - name: IETF DULT WG
 
 
 --- abstract
@@ -178,7 +183,7 @@ In this section, we describe IPV attacks that are enabled or exacerbated by Inte
 
 ## The tech-asisted IPV attacker
 
-The attacker we focus on in this document is someone who either forcefully controls accounts, devices, and/or authentication information used to access systems, or leverages publicly available information to exert this control. This attacker may or may not be technologically skilled (it might be "technology savvy" or not). From a threat model perspective, this attacker is one of the strongest ones as it use their abilities to gain unlimited access to unlimited access to systems and devices without needing significant financial or computational resources.
+The attacker we focus on in this document is someone who either forcefully controls accounts, devices, and/or authentication information used to access systems, or leverages publicly available information to exert this control. This attacker may or may not be technologically skilled (it might be "technology savvy" or not). From a threat model perspective, this attacker is one of the strongest ones as it can use their abilities to gain unlimited access to systems and devices without needing significant financial or computational resources.
 
 The attacker typically has (or has had) physical access to the victim and often shares a common social network with them. In some cases, the attacker may legally own the devices or accounts the victim uses, further complicating the victim’s ability to maintain control.
 
@@ -186,13 +191,12 @@ The attacker typically has (or has had) physical access to the victim and often 
 
 There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV.
 For an in-depth reading, see {{TBMDGMMDR}} and {{CDOHPFLDMR}}.
-Here we informally list their main groups:
+Below, we informally categorize the main tactics attackers use:
 
 * Ready-made tools: Attackers can use applications or devices
-  that are solely built to facilitate IPV. These apps are sometimes called "stalkerware" or "spouseware".
-* Dual-use tools: Attackers can use applications, control settings or devices built for beneficial or innocuous
-  purposes and repurpose them for harm. This is the case, for example, of anti-theft
-  devices that can be repurposed for stalking.
+  that are solely built to facilitate IPV. These types of technology are sometimes referred to as "stalkerware" or "spouseware".
+* Dual-use tools: Attackers can repurpose applications, settings or devices built for beneficial or innocuous
+  purposes to cause harm. This is the case, for example, of anti-theft devices that can be repurposed for stalking, or to location-tracking tools. The latter is subject to its own considerations {{DULT}}.
 * Impersonation attacks: Knowing personal information coupled with access to authentication mechanisms gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them. This can be executed to the degree that the victim can no longer successfully authenticate themselves.
 * UI-bound impersonation attacks: Attackers can abuse technology to enhance IPV by abusing the
   UI of a specific tool. In this case, attackers become authenticated but adversarial users of a
