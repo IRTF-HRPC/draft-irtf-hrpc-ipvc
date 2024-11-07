@@ -133,6 +133,11 @@ informative:
     title: "Detecting Unwanted Location Trackers"
     author:
       - name: IETF DULT WG
+  UPMSG:
+    target: https://www.designtrustworthymessaging.org/
+    title: "Unbreakable: Designing for Trustworthiness in Private Messaging"
+    author:
+      - name: Unbreakable
 
 
 --- abstract
@@ -197,20 +202,16 @@ Below, we informally categorize the main tactics attackers use:
   that are solely built to facilitate IPV. These types of technology are sometimes referred to as "stalkerware" or "spouseware".
 * Dual-use tools: Attackers can repurpose applications, settings or devices built for beneficial or innocuous
   purposes to cause harm. This is the case, for example, of anti-theft devices that can be repurposed for stalking, or to location-tracking tools. The latter is subject to its own considerations {{DULT}}.
-* Impersonation attacks: Knowing personal information coupled with access to authentication mechanisms gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them. This can be executed to the degree that the victim can no longer successfully authenticate themselves.
+* Impersonation attacks: Knowing personal information coupled with access to authentication mechanisms gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them. This can be executed to the degree that the victim can no longer successfully authenticate themselves to their services or accounts.
 * UI-bound impersonation attacks: Attackers can abuse technology to enhance IPV by abusing the
-  UI of a specific tool. In this case, attackers become authenticated but adversarial users of a
+  User Interface (UI) of a specific tool. In this case, attackers become authenticated but adversarial users of a
   system. They cannot, however, escalate to root privileges or access other underlying
-  functionalities of the system. They are bound to whatever system they managed
+  functionalities of the system. They are bound to the UI of whatever system they managed
   to authenticate to. We will explore later the ways attackers use to forcibly gain
   authentication to a system.
 * Social media and forums: Attackers can learn and share information on how to use
-  technology to enhance IPV through the usage of these tools. They can also
-  receive narrative justification to condone their behaviour. They can also
-  perform cyberstalking, cyberbullying, doxxing with the usage of these tools.
-* Perception of threat: The mere presence of a pervasive threat is a form of control. The perception that technology can be used to enhance IPV
-  is a tactic of attackers to control victims, take away agency and abuse them. This can lead
-  to lack of trust in technology, and further isolates the victim from seeking and receiving support.
+  technology to enhance IPV through the usage of these platforms. These spaces may also provide narrative justifications for abusive behavior and facilitate cyberstalking, cyberbullying, and doxxing.
+* Perception of Threat and Vulnerability: The awareness of a pervasive threat can act as a powerful form of control. Attackers often leverage the perception that technology could be used for IPV as a means of manipulating victims, eroding their sense of safety and agency. This can extend to perceptions of vulnerability within the victim's network or system: the mere suspicion of a vulnerability could compound feelings of insecurity. Research on user perceptions of technology trustworthiness, especially within messaging apps (see {{UPMSG}}), indicates that perceived threats and vulnerabilities in communication channels can discourage users from trusting or seeking help through these technologies. Such dynamics can further isolate victims and create additional barriers to receiving support.
 
 ## Kinds of tech-enabled IPV attacks
 
