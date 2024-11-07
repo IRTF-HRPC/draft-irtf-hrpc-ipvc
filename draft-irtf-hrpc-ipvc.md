@@ -308,62 +308,34 @@ Once access is obtained, an attacker can:
 
 ## Means of attacking
 
-The above attacks can be carried out in different ways. We list here the most
-common ones:
+The attacks described above can be carried out using various methods. Below are some of the most common approaches:
 
-* Installation of spyware or spoofing: This form of attack consists of installing
-  unwanted tools into a device in order to gain access to accounts or for active
-  monitoring. It can also take the form of remote access by remotely "hacking"
-  security questions, passwords or any authentication mechanism. Most of the
-  time, these tools are installed without the victim's knowledge.
-* Coercion and control: This form of attack consists of using coercion and control
-  (which can be physical, emotional or psychological) to gain access to devices,
-  network devices, accounts or digital information. It often takes the form of
-  forcing victims to reveal passwords or account/devices authentication mechanisms.
-* Shared network plans between family/relationship members: Often times, an
-  attacker is the legal "owner" of a device (owning children's devices, for example)
-  or accounts (a bank account, for example),
-  or they have access to accounts/devices as they are part of a shared family
-  plan. This enables an attacker to carry out the previously mentioned attacks
-  without the knowledge of the victim and without the need for installation of
-  tools.
-* Monitoring: This means of attack consists of the abuse of social media and any public
-  information found on digital tools from the victim that has been shared through them. It also involves installing
-  tools for active monitoring on devices or using "benign" applications in
-  a dual-use manner (applications, such as the "track my phone" one).
-* Exposure: This means of attack consists of the abuse of social media to enhance
-  harassment. It consists of using social media to post harmful content to humiliate,
-  to harass family or friends, for doxxing or to non-consensually share
-  intimate/private media.
+* Spyware Installation and Spoofing: This method involves installing malicious software on the victim's device to gain unauthorized access to their accounts or to conduct active monitoring. It may also include spoofing techniques to bypass security measures, such as remotely compromising security questions, passwords, or other authentication methods. These tools are typically installed without the victim's knowledge, giving the attacker covert access to their personal information.
+
+* Coercion and Control: This form of attack leverages physical, emotional, or psychological manipulation to gain access to a victim's devices, network credentials, or digital information. It often involves forcing the victim to reveal sensitive details, such as passwords, PINs, or authentication mechanisms for their accounts and devices, creating an environment of control and fear.
+
+* Shared Network Plans and Account Ownership: In some cases, an attacker may be the legal owner of a device (e.g., a parent's control over a child's device) or have access to shared family accounts or network plans. For instance, an abuser may control a joint bank account or device within a shared family plan, allowing them to carry out attacks without the victim's knowledge and without needing to install malicious software.
+
+* Monitoring: This method involves the exploitation of social media and other publicly available information to track the victim's activities. It may also include the installation of monitoring tools on the victim's devices or the abuse of "benign" applications (e.g., location-tracking apps) in a malicious way. The attacker uses these tools to keep tabs on the victim's movements and interactions, often in secret.
+
+* Exposure: This method involves the use of social media platforms to amplify harassment. It includes actions such as posting harmful content to embarrass, humiliate, or intimidate the victim, or sharing private information like intimate images without consent. This form of attack may also involve doxxing, where the victim's personal details are shared publicly to cause distress or harm to their relationships and reputation.
 
 # Specific abused technology
 
-In the research of the ways attackers use technology to enhance IPV, we see this
-specific technology being abused:
+Research into how attackers exploit technology to enhance IPV reveals that the following technologies are frequently abused:
 
-* Passwords and authentication mechanisms: all authentication mechanisms can be
-  used to enhance IPV as they are the single point of failure used by attackers
-  to get access to the account and/or devices (and, once they have access to those, they
-  can get further access to other accounts or devices). Attackers can use
-  specialised tools (to be installed in devices) to record authentication
-  mechanisms, they can coerce victims in order to get access to devices, and more.
-  They can also mount these attacks against fingerprints and biometric authentication
-  mechanisms, 2-factor authentication devices/applications and more.
-* Media and private information: attackers can use the access to accounts/devices
-  to gain access to media and private information. This media can later be
-  used to bribe a victim, to humiliate them (by publicly posting it), to
-  enhance harassment and more.
-* Recovery of account mechanisms: as with authentication mechanisms, attackers
-  can use 2-factor authentication devices, accounts and/or applications to get access to other
-  accounts or profiles
-* Lack of blocking mechanisms and abuse of anonymous mechanisms: Often times
-  attackers carry out abuse by:
-  * Contacting through fake numbers
-  * Contacting through fake accounts
-  * Sending messages to applications that have a "open" chanel for receiving any
-    message.
-  * Abusing of read-recipes to enhance control.
-  * Abusing the lack of blocking mechanisms.
+* Passwords and Authentication Mechanisms: Authentication systems are often the primary point of failure in IPV attacks. Once an attacker gains access to a victim's account or device, they can use that access to compromise additional accounts or devices. Attackers can use specialized tools, often installed surreptitiously on the victim's device, to capture authentication data. They may also coerce victims into revealing passwords or bypassing security features. This includes targeting biometrics (e.g., fingerprints, facial recognition), two-factor authentication (2FA) systems, and other multi-layered security methods.
+
+* Media and Private Information: Attackers who gain access to devices or accounts can harvest private media and sensitive personal information. This data can then be used to extort the victim, humiliate them (by sharing it publicly), or escalate harassment. Private communications, photos, and other intimate materials are particularly vulnerable to such exploitation, often used as leverage in controlling or threatening the victim.
+
+* Account Recovery Mechanisms: In addition to direct access to authentication mechanisms, attackers can manipulate account recovery processes to gain unauthorized access to accounts. This includes exploiting weaknesses in 2FA devices, recovery email systems, or password reset tools. By compromising these systems, attackers can gain control over multiple online profiles, furthering their ability to surveil and control the victim.
+
+* Lack of Blocking Mechanisms and Exploitation of Anonymous Channels: Many platforms and communication tools lack effective blocking or reporting mechanisms, which attackers exploit to continue their abuse. Common tactics include:
+
+  * Using fake phone numbers or burner accounts to contact the victim.
+  * Sending messages via platforms with open channels that do not require mutual consent (e.g., messaging apps with open chat features).
+  * Exploiting "read receipts" or similar features to monitor the victim's engagement with their messages, thereby gaining further control.
+  * Abusing the absence of robust blocking features to maintain constant contact and harassment.
 
 # Recommendations
 
