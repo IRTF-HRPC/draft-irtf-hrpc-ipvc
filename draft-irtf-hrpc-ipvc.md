@@ -199,6 +199,8 @@ The attacker we focus on in this document is someone who either forcefully contr
 
 The attacker typically has (or has had) physical access to the victim and often shares a common social network with them. In some cases, the attacker may legally own the devices or accounts the victim uses, further complicating the victim’s ability to maintain control.
 
+The attacker is not implied to have infinite computing power or unrestricted access to external systems (e.g., companies infrastructure). Rather, the focus is on their ability to gain unlimited access to the victim's personal devices and accounts due to their proximity, control, or manipulation of the victim's authentication mechanisms and personal data.
+
 ## Tech-based IPV tactics
 
 There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV.
@@ -346,7 +348,7 @@ Research into how attackers exploit technology to enhance IPV reveals that the f
 
 # Recommendations
 
-The following recommendations are tailored for protocol designers to help mitigate technology-enabled IPV, recognizing that IPV often occurs within the broader context of structural violence (which can be gender-based violence). While these attacks are facilitated or exacerbated by technological tools, the recommendations focus on enabling victims to regain control, prevent the abuse of power, and limit attackers' ability to carry out actions that entrench their control.
+The following recommendations are tailored for protocol and systems designers to help mitigate technology-enabled IPV, recognizing that IPV often occurs within the broader context of structural violence (which can be gender-based violence). While these attacks are facilitated or exacerbated by technological tools, the recommendations focus on enabling victims to regain control, prevent the abuse of power, and limit attackers' ability to carry out actions that entrench their control.
 
 * Build proper authentication systems: Authentication mechanisms should be designed with the following features:
   * Account Access Transparency: Maintain a non-deletable and non-modifiable list of devices with access to accounts and a record of active sessions.
