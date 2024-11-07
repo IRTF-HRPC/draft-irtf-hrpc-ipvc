@@ -215,14 +215,8 @@ Below, we informally categorize the main tactics attackers use:
 
 ## Kinds of tech-enabled IPV attacks
 
-* Monitoring: One of the most prevalent methods to enhance IPV is the usage of
-  active monitoring of any online account that the victim has or of any action that the
-  victim does in the digital world. This includes a variety of behaviors that
-  feel unwelcomed and intrusive, and can involve threats.
-  The monitoring is "active" in that is a on-going action that the victim can be
-  aware of or not, and that the abuser might want to make them aware or not. It can
-  include:
-  * Monitoring e-mail, chat-based or social media communications, or browsing information
+* Monitoring: A prevalent tactic to facilitate IPV is the active, intrusive monitoring of the victim’s online activities and accounts. This ongoing surveillance can encompass a range of behaviors that feel invasive, often involving threats or intimidation. The "active" nature of this monitoring means it may be apparent to the victim or entirely hidden, depending on the abuser's intent. Forms of monitoring include:
+  * Monitoring of communication, which can be e-mail-based, chat-based or social media communications, or browsing information
     (history, cookies or more) either directly on the victim's device or through
     specialised applications.
   * Monitoring location and whereabouts by looking at the metadata of communication,
@@ -231,34 +225,38 @@ Below, we informally categorize the main tactics attackers use:
     attacks.
   * Monitoring any information found on the UI by looking at devices screens while the
     victim is using them.
-  * Using the Internet to seek public or private information to compile a
+  * Data gathering by using the Internet to seek public or private information to compile a
     victim's personal information for use in harassment.
+  * Monitoring security cameras or systems for home security
 
   In this type of attack, we see these dimensions:
 
-  * Monitoring of the content of communications either at the application layer
-    or other layers.
+  * Monitoring of communication content at various layers, including the application layer (e.g., chat or email content) and network layers (e.g., packet inspection or traffic analysis).
   * Monitoring of the UI content of application tools.
   * Monitoring of location information.
 
-* Compromise of accounts: An attacker may demand access to the victim's accounts to continuously monitor, control or restrict their online communications and activities. In contrast to the previous point, rather than using "publicly available" tools the perpetrator demands access to tools and contents in order to reduce the "life space" or "space for action" that the victim-survivor may have to perform activities that do not involve the attacker. Once an attacker has access to an online account, they can use that to:
-  * Delete data, which can be communication data, documents and more (any information s
-    stored in the device).
-  * Have access to contacts such as friends, family or colleagues.
-  * Have access to communications, audio-video content, and any associated metadata.
+* Compromise of accounts: An attacker may demand access to the victim's accounts to continuously monitor, control, manipulate or restrict their digital communications and activities. Unlike passive monitoring with publicly available tools, the attacker demands access to tools and contents in order to reduce the "life space" or "space for action" that the victim has for independent activities.
+Once access is obtained, an attacker can:
+
+  * Delete data, which can be communication data, documents and more (essentially, any data
+    stored in the account).
+  * Gain access to contacts such as friends, family or colleagues.
+  * Gain access to communications, audio-video content, and any associated metadata.
+  * Modify or manipulate any communications, audio-video content, and any associated metadata.
   * Lock out or change the authentication mechanisms that grant access to the account.
-  * Impersonate by using the victim's online identity to send false/forged messages to
+  * Impersonate the victim by using the victim's online identity to send false/forged messages to
     others or to purchase goods and services.
-  * Impersonate by using the victim's online identity to publicly post information
-    that can be private or fake.
-  * Impersonate by using the victim's online or legal identity to sign victims up for services.
+  * Impersonate the victim by using the victim's online identity to publicly post information
+    that can be private or fake, impacting their reputation and sense of security.
+  * Impersonate the victim by using the victim's online or legal identity to sign victims up for services.
+  * Exposing private information or media by distributing intimate or private data (which could have been adquired via coercive tactics).
 
 * Compromise of devices: This attack is similar to the above, but the attacker
   demands access to the victim's devices. The goal is the same as the above but the
-  result is more impactful as it restricts access to accounts that are accessed
-  through the device. It can also prevent any connection to the Internet.
+  result is more impactful, as it restricts access and gives access to accounts that are accessed
+  through the device. It can also prevent the victim from having any connection to the Internet.
   Once an attacker has access to the device, they can use it to:
-  * Phisically prevent the use of the device (the device can be used, for example,
+  * Phisically prevent the use of the abilities given by the device (the device can be used, for example,
     to call police services, which is restricted with this attack).
   * Access contacts and data (media or messages) stored in it.
   * Access to accounts and authentication mechanisms for other accounts (saved passwords or
@@ -269,30 +267,44 @@ Below, we informally categorize the main tactics attackers use:
   * Impersonate by using the victim's online identity, as accessed through the device,
     to publicly post information that can be private or fake.
 
-* Exposing of private information or media: This attack builds on top of other attacks.
-  Once an attacker has access to an account or device, they can use this access to gather
-  private information or private media stored in it. This can later be used for
-  threatening, extortion, doxing (posting private information), and more.
-  It can also be used to gather information regarding bank accounts, tax information and more.
+* Exposing Private Information or Media: This attack often builds on other the forms of attack.
+  Once an attacker gains access to an account or device, they can harvest sensitive data,
+  including personal and/or private media, messages, and private documents. This stolen
+  information can then be used to threaten, extort, or humiliate the victim. For example,
+  intimate images may be used for blackmail, or private details such as bank account and tax
+  information may be exploited. The attacker may also engage in doxxing by publicly sharing
+  private details to damage the victim’s reputation or relationships.
 
-* Denial of access: This attack can be built on top of other attacks. It can consist
-  of denying access to a device, but also denying access to the Internet in general
-  by destroying routers (or network devices), changing Wi-Fi passwords or network
-  settings. The goal is to disallow access to services, or contact with family and friends.
-  It can also take the form of disrupting digital communications by flooding a
-  victim's communication tool with unwanted messages or by sending a virus program.
+* Denial of Access: This attack can also be built upon previous ones, and its objective is to
+  block the victim's access to essential services. It can include physical measures such as
+  destroying routers or network devices, changing Wi-Fi passwords, or modifying network settings.
+  This prevents the victim from connecting to the Internet or accessing online services.
+  Denial of access may also target financial abuse, such as restricting the victim's access to
+  online banking or digital wallets, making it difficult or impossible for them to manage their finances.
+  Denial of access can also extend to digital communication disruptions, such as flooding the
+  victim’s communication platforms with unwanted messages or deploying viruses to compromise
+  their devices. The goal is to isolate the victim, severing their connection to the outside world,
+  including family, friends, and support networks.
 
-* Threats: This attack can be considered as a dimension of the previous attack as it can result
-  on a denial of access attack. It consists on sending e-mail, chat-based messages
-  or social media messages that threatens, insults, or harasses a victim.
+* Threats: Often intertwined with denial of access, threats involve sending harassing or abusive
+  messages via email, chat, or social media. These messages may include insults, intimidation,
+  or direct threats of harm. The purpose is to instill fear, destabilize the victim's emotional
+  state, and force compliance, either by causing distress or pushing the victim toward further
+  harmful actions. Threats can escalate into more severe attacks, including denial of access or
+  exposure of private information.
 
-* Harrassing: Harrassment can be anonymous, but a victim often knows from whom harrassment
-   messages/actions come from; but, due to its anonymity, it is unable to hold
-   atackers accountable. The systems we have in place often need that harrassment
-   content is permanently available so that an investigation takes place. This
-   enhances the abuse a victim is suffering. This type of attack appears in different dimensions:
-  * On-going harassment with the goal of intimidation, humiliation and monitoring.
-  * Harrassment that appears after a victim has [disconnected] to continue coercion. When the abuser no longer has any physical control over the victim they can start to stalk them.
+* Harassment: Harassment can be anonymous, but in many cases, the victim knows the identity of the
+  attacker. However, due to the anonymity of certain platforms, the victim may struggle to hold the
+  perpetrator accountable. The systems in place often require that harassing content be permanently
+  available for investigation, but this can, in turn, prolong the victim's exposure to the abuse.
+  Harassment can manifest in various forms and dimensions:
+  * Ongoing Harassment: This type of harassment is persistent, with the goal of intimidating,
+    humiliating, and psychologically tormenting the victim. It often involves repeated messages, threats,
+    or actions that make the victim feel unsafe or violated.
+  * Post-Disconnection Harassment: Once the attacker no longer has physical control over the victim,
+    they may resort to cyberstalking or continued harassment online. This form of abuse allows the
+    attacker to maintain control over the victim by stalking their digital presence, often through
+    social media, messaging platforms, or by monitoring their activities in other ways.
 
 ## Means of attacking
 
