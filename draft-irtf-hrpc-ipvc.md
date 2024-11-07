@@ -166,6 +166,8 @@ This document outlines the tactics employed in technology-based IPV and offers r
 
 Although the category of technology-abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women {{Witness}}, those tactics are out of scope in this document, since the attacker is not part of the victim's social environment, i.e. they do not necessarily have access to the victim's local network. However, in some ocasions, this distinction doesn’t always hold.
 
+The point of this document is to describe technological means by which abuse may be enacted. It is not claiming, and cannot claim, that these means are inherently abusive.
+
 # Definition of technology-based IPV
 
 Technology-based intimate partner violence (IPV) refers to the use of digital tools and technologies to enable, escalate, and reinforce abusive behaviors. IPV itself encompasses physical, emotional, verbal, sexual, or economic abuse committed by a current or former intimate partner. A "partner" in this context is not limited to romantic or sexual relationships, but can extend to anyone with a close relationship to the victim, including household members involved in child or elder abuse. What defines IPV is the inherent unequal power relationship, where the abuser leverages this imbalance to inflict harm and exert control.
