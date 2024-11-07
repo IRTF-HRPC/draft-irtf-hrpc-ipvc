@@ -138,6 +138,11 @@ informative:
     title: "Unbreakable: Designing for Trustworthiness in Private Messaging"
     author:
       - name: Unbreakable
+  UNGUI:
+    target: https://datatracker.ietf.org/meeting/118/materials/slides-118-hrpc-unfpa-gbv-tech-guidance-00
+    title: "Guidance on safe and ethical use of technology to address GBV and HP"
+    author:
+      - name: United Nations Population Fund GHRB Technical Division
 
 
 --- abstract
@@ -339,38 +344,39 @@ Research into how attackers exploit technology to enhance IPV reveals that the f
 
 # Recommendations
 
-We list here some recommendations to protocol designers to mitigate technology-enabled IPV:
+The following recommendations are tailored for protocol designers to help mitigate technology-enabled IPV, recognizing that IPV often occurs within the broader context of structural violence (which can be gender-based violence). While these attacks are facilitated or exacerbated by technological tools, the recommendations focus on enabling victims to regain control, prevent the abuse of power, and limit attackers' ability to carry out actions that entrench their control.
 
-* Build proper authentication systems: authentication mechanisms should provide:
-  * A non-deletable and non-modifiable list of who has access to accounts/devices:
-    a list of recognised devices and a list of active sessions.
-  * A way to recover access to an account and to change authentication
-    mechanisms.
-  * Provide mechanisms to revoke access.
-  * Send clear notifications for:
-    * when new devices are used to access an account,
-    * when there is attempt to access an account,
-    * when any change has been made to an account.
-  * Provide mechanisms to approve access attempts to accounts (when, for example,
-    a new device is trying to access an account).
-* Storage and sharing of media: media should be stored/posted in such a way that:
-  * It can be taken down at the request of a victim if it consists of
-    private media posted without consent.
-  * Provide good and private mechanisms for reporting the posting of
-    non-consented media.
-  * Provide a way to destroy media once a device is in the hands of an attacker.
-* Social media: social media can be a way for attackers to enhance monitoring.
-  They should:
-  * Provide proper blocking systems that are not limited to an individual account.
-  * Provide mechanisms by which only "accepted" people are able to send messages
-    to an account.
-* Browser history or searching information/metadata should be deleted by default.
-* End-to-end encryption must be the default for any messaging in order to prevent network monitoring.
-* Consider local attackers when designing sensitive applications.
+* Build proper authentication systems: Authentication mechanisms should be designed with the following features:
+  * Account Access Transparency: Maintain a non-deletable and non-modifiable list of devices with access to accounts and a record of active sessions.
+  * Recovery and Revocation: Provide secure ways to recover access to accounts and change authentication mechanisms. Allow easy revocation of access, including when an account or device is compromised.
+  * Clear Notifications: Send notifications when:
+    * New devices are used to access an account.
+    * Attempts to access accounts occur.
+    * Changes are made to account details.
+  * Approval Mechanism for Access: Implement a system that allows users to approve or deny access attempts from new devices or locations.
+* Storage and sharing of media: Media should be handled in a way that allows the victim to retain control:
+  * Media Takedown: Ensure that private media posted without consent can be taken down at the victim's request.
+  * Dealing with Re-posting: Implement mechanisms to prevent re-posting of previously reported non-consensual media, either by blocking its sharing or by flagging it across platforms and devices.
+  * Secure Reporting Mechanisms: Provide private, confidential ways to report non-consensual media, with systems in place to ensure the victim's privacy is protected.
+* Social Media Platforms: Social media can be a powerful tool for perpetrators, enhancing monitoring and control. Platforms should:
+  * Comprehensive Blocking Systems: Provide blocking systems that go beyond individual accounts, potentially linking accounts and devices associated with a blocked user to prevent continued harassment or monitoring.
+  * Restricted Messaging: Enable users to set privacy controls that allow only approved contacts to send messages to their accounts.
+* Browser and Search Data: Browsers and search engines should prioritize privacy and security:
+  * Automatic Deletion: Browser history, search information, and related metadata should be deleted by default after each session or within a specified time frame (triggerred by users, for example). This protects users from unwanted surveillance.
+* End-to-end encryption must be the default for any messaging in order to prevent network monitoring and ensure that digital communications remain private.
+* Gender Sensitivity in Design:
+  * Gender-Informed Design: Designers should adopt a gender-sensitive approach when developing tools and applications. Recognizing the structural inequalities inherent in IPV helps build systems that are supportive of the unique needs of victims.
+* Local Attackers and Sensitive Applications
+  * Security for Local Attackers: When designing sensitive applications, ensure that they are secure against local attackers, including those who may have physical access to the device. Sensitive applications refer to any software or services that handle private or confidential data, such as personal accounts, financial tools, and communication platforms.
+* Detection Tools and Analytics
+  * Building Detection Tools: Develop advanced detection tools with IPV-specific algorithms and systems. These tools should focus on identifying patterns of control and abuse, as well as enhancing logging and analytics for detecting unusual or suspicious activity. Consider guidance for building such tools {{UNGUI}}.
 * Engineer plausible deniability for sensitive applications.
 * Build detection tools and improve logging and analytics for user agents and devices with IPV in mind.
+* Transparent Reporting: IPV-related issues should not be viewed solely as privacy concerns. It’s crucial to address areas such as transparency in reporting mechanisms, identity management, and proper accountability measures in tech systems to counter the misuse of power.
 
 It is important to note that IPV should not be mistaken to be a privacy issue alone. Furthermore any tech-based solutions and interventions that only address privacy can be used by attackers, helping them to cloak their attacks from the victim and other means of detection. Power is imbalanced in IPV and technology entrenches power.{{Citron}}
+
+It's essential to acknowledge  as well that implementing these recommendations will not fully eliminate IPV due to the broader power imbalances in society. However, these measures can play a critical role in addressing the use of technology to facilitate abuse. Addressing IPV through technology must be viewed as a step toward giving victims the tools to regain control, while simultaneously limiting the means by which abusers can continue their attacks.
 
 # Resources
 
