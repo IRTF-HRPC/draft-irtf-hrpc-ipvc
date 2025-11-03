@@ -1,6 +1,6 @@
 # Intimate Partner Violence Digital Considerations
 
-This is the working area for the IETF [CELI Working Group](https://datatracker.ietf.org/wg/celi/documents/) Internet-Draft, "Intimate Partner Violence Digital Considerations".
+This is the working area for the IRTF [HRPC Working Group](https://datatracker.ietf.org/wg/celi/documents/) Internet-Draft, "Intimate Partner Violence Digital Considerations".
 
 * [Editor's Copy](https://claucece.github.io/draft-celi-ipvc/#go.draft-ietf-celi-ipvc.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-celi-ipvc)
