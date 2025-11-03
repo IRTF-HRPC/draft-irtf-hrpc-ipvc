@@ -164,7 +164,7 @@ There is significant existing work in the field of online gender-based violence 
 
 This document outlines the tactics employed in technology-based IPV and offers recommendations for designing protocols and technologies to mitigate these tactics. It begins with a comprehensive overview of IPV and related terminology, followed by an exploration of the specific tactics used by abusers, culminating in actionable recommendations for the digital design community.
 
-Although the category of technology-abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women {{Witness}}, those tactics are out of scope in this document, since the attacker is not part of the victim's close social environment, i.e. they do not necessarily have access to the victim's local network. However, in some ocasions, this distinction doesn't always hold.
+Although the category of technology-abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women {{Witness}}, those tactics are out of scope in this document, since the attacker is not part of the victim's close social environment, i.e. they do not necessarily have access to the victim's local network. However, in some occasions, this distinction doesn't always hold.
 
 The point of this document is to describe technological means by which abuse may be enacted. It is not claiming, and cannot claim, that these means are inherently abusive.
 
@@ -184,7 +184,7 @@ Ultimately, technology-based IPV is not just an extension of traditional abuse; 
 
 In the rest of this draft, we will use this terminology:
 
-Attacker: A person who, in the context of intimate partner violence (IPV), uses digital tools to exert control, monitor, or harm another individual with the aim of enabling or enhacing abuse. The term "attacker" is used interchangeably with "perpetrator."
+Attacker: A person who, in the context of intimate partner violence (IPV), uses digital tools to exert control, monitor, or harm another individual with the aim of enabling or enhancing abuse. The term "attacker" is used interchangeably with "perpetrator."
 * Victim: By "victim" we mean a person who is subject or target of an attack. Notice that we are using
   this term only in the temporary context of an attack scenario. We prefer the term "survivor", which recognizes the agency and resistance tactics of those facing IPV, but for the purposes of this document we focus on the fact of being subject of specific technology-based IPV attacks.
 
@@ -260,14 +260,14 @@ Once access is obtained, an attacker can:
   * Impersonate the victim by using the victim's online identity to publicly post information
     that can be private or fake, impacting their reputation and sense of security.
   * Impersonate the victim by using the victim's online or legal identity to sign victims up for services.
-  * Exposing private information or media by distributing intimate or private data (which could have been adquired via coercive tactics).
+  * Exposing private information or media by distributing intimate or private data (which could have been acquired via coercive tactics).
 
 * Compromise of devices: This attack is similar to the above, but the attacker
   demands access to the victim's devices. The goal is the same as the above but the
   result is more impactful, as it restricts access and gives access to accounts that are accessed
   through the device. It can also prevent the victim from having any connection to the Internet.
   Once an attacker has access to the device, they can use it to:
-  * Phisically prevent the use of the abilities given by the device (the device can be used, for example,
+  * Physically prevent the use of the abilities given by the device (the device can be used, for example,
     to call police services, which is restricted with this attack).
   * Access contacts and data (media or messages) stored in it.
   * Access to accounts and authentication mechanisms for other accounts (saved passwords or
@@ -368,7 +368,7 @@ The following recommendations are tailored for protocol and systems designers to
   * Comprehensive Blocking Systems: Provide blocking systems that go beyond individual accounts, potentially linking accounts and devices associated with a blocked user to prevent continued harassment or monitoring.
   * Restricted Messaging: Enable users to set privacy controls that allow only approved contacts to send messages to their accounts.
 * Browser and Search Data: Browsers and search engines should prioritize privacy and security:
-  * Automatic Deletion: Browser history, search information, and related metadata should be deleted by default after each session or within a specified time frame (triggerred by users, for example). This protects users from unwanted surveillance.
+  * Automatic Deletion: Browser history, search information, and related metadata should be deleted by default after each session or within a specified time frame (triggered by users, for example). This protects users from unwanted surveillance.
 * End-to-end encryption must be the default for any messaging in order to prevent network monitoring and ensure that digital communications remain private.
 * Gender Sensitivity in Design:
   * Gender-Informed Design: Designers should adopt a gender-sensitive approach when developing tools and applications. Recognizing the structural inequalities inherent in IPV helps build systems that are supportive of the unique needs of victims.
@@ -392,7 +392,7 @@ It's essential to acknowledge  as well that implementing these recommendations w
 
 # Security Considerations
 
-This document is about security considerations.
+This document itself discusses security threats in the context of IPV. Implementers should note that mitigation mechanisms must balance user safety, usability, and privacy. In particular, features intended to protect users (e.g., encryption, logging, blocking) can also be exploited by abusers if not designed with IPV contexts in mind.
 
 # IANA Considerations
 
@@ -405,6 +405,6 @@ This document has no actions for IANA.
 
 Thanks to:
 
-* Lana Ramjit and Thomas Ristenpart for their insipiring work on this area,
+* Lana Ramjit and Thomas Ristenpart for their inspiring work on this area,
   and guidance for this draft.
 * Shivan Kaul and Pete Snyder for discussions, guidance and support.
