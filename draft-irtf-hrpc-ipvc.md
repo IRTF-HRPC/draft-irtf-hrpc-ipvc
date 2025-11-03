@@ -223,7 +223,10 @@ Below, we informally categorize the main tactics attackers use:
 
 ## Kinds of tech-enabled IPV attacks
 
-* Monitoring: A prevalent tactic to facilitate IPV is the active, intrusive monitoring of the victim’s online activities and accounts. This ongoing surveillance can encompass a range of behaviors that feel invasive, often involving threats or intimidation. The "active" nature of this monitoring means it may be apparent to the victim or entirely hidden, depending on the abuser's intent. Forms of monitoring include:
+The attacks we list and are discussed in this document exploit the tight integration between personal technology and everyday life, leveraging access to accounts, devices, authentication mechanisms, and personal or sensitive information. The examples below illustrate, but are not limited to, common categories of tech-enabled IPV.
+Each represents a distinct vector through which an attacker can extend coercive control, surveillance, or isolation, often combining multiple tactics at once.
+
+* Monitoring: A prevalent tactic to facilitate IPV is the active, intrusive monitoring of the victim's online activities and accounts. This ongoing surveillance can encompass a range of behaviors that feel invasive, often involving threats or intimidation. The "active" nature of this monitoring means it may be apparent to the victim or entirely hidden, depending on the abuser's intent. Forms of monitoring include:
   * Monitoring of communication, which can be e-mail-based, chat-based or social media communications, or browsing information
     (history, cookies or more) either directly on the victim's device or through
     specialised applications.
